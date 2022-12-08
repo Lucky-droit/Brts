@@ -1,0 +1,465 @@
+.phonebody{
+    height: 2751px;
+width: 821px;
+left: -588px;
+top: -834px;
+border-radius: 0px;
+
+   /* background-color: blue; */
+}
+.firstrow{
+   
+   height: 100px;
+   background-color: white;
+   
+}
+.firstrow{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.fimg{
+   height: 40px;
+   width: 40px;
+   /* border: solid 2px; */
+   align-self: center;
+   
+}
+
+.simg{
+   width: 180px;
+   height: 75px;
+   margin: auto;
+/* border:  solid 2px; */
+
+   
+}
+.timg{
+   width: 60px;
+   height: 40px;
+   /* border: 2px solid; */
+   margin-right: 20px;
+}
+.block{
+position: absolute;
+/* display: flex; */
+flex-direction: row;
+justify-content: center;
+width: 749px;
+height: 1231px;
+margin-top: 40px;
+margin-left: 35px;
+background: #E0F1F0;
+border-radius: 32px;
+}
+.fiimg{
+   /* border: 2px solid; */
+   border-radius:90ch;
+   width: 130px;
+   height: 130px;
+   margin-top: 55px;
+   margin-left :320px;
+}
+.conimg{
+   height: 220px;
+   /* border: solid 2px; */
+}
+
+.stations2{
+   /* border:solid 2px; */
+   align-self:row;
+}
+.siimg{
+   /* margin: 0px;background-color:blue; */
+   margin-left: 0px;
+}
+
+
+.srcbtn{
+   background-color :#E0F1F0;
+   /* border:2px ; */
+   border: 0px;
+   font-size:50px;
+   font-weight: 600;
+   font-family: 'Roboto',sans-serif;
+   
+}
+.stcon{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   /* border: solid 7px; */
+}
+#st1{
+   /* background-color: red; */
+   width: 320px;
+   margin-left: 0px;
+   margin-right: 14px;
+   justify-self: left;
+}
+#st2{
+   margin-right: 30px;
+   width: 300px;
+}
+.arrow1{
+   height: 45px;
+   width: 45px;
+   /* border: 2px solid; */
+   margin-top: 10px;
+   justify-self: center;
+   align-self: center;
+}
+.adultticket{
+   display: flex;
+   font-size: 27px;
+   font-family: sans-serif;
+   flex-direction: column;
+   /* background-color: red; */
+   justify-content: center;
+   align-items: center;
+   /* height: 30px; */
+}
+.aadultticket{
+     /* background-color: white; */
+     background-color: #E0F1F0;
+     color: rgb(156, 154, 154);
+   margin-top: 20px;
+   margin-bottom: 0px;
+
+   
+}
+.ac{
+   /* background-color: blue; */
+   margin-top: 0px;
+   font-size: 27px;
+
+   
+}
+.rupee{
+   margin-top: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   /* border: solid 2px; */
+
+}
+
+.seimg{
+   height: 55px;
+   margin-top: 21px;
+}
+.ambtn{
+   height: 85px;
+   background-color: #E0F1F0;
+   /* background-color: red; */
+   border: 0px;
+   font-size: 75px;
+   /* width: 60px; */
+   margin-bottom: 2px;
+   margin-top: 5px;
+   font-weight: 600;
+   font-family: 'Roboto',sans-serif;
+   
+}
+.eiimg{
+   height: 95px;
+   margin-top: 3px;
+   margin-left: 12px;
+}
+.tbs{
+   display: flex;
+   justify-content: center;
+   font-family: sans-serif;
+   margin-top: 15px;
+   font-size: 27px;
+   font-weight:800;
+   /* border: 2px solid; */
+   font: bold;
+   color: grey;
+}
+.datetime{
+   
+   display: flex;
+   justify-content: center;
+   margin-top: 39px;
+   border: solid 0px;
+}
+#date{
+   margin-left: 100px;
+}
+#date,#timeam{
+   border: 0px solid;
+   font-size: 21px;
+   width: 190px;
+   font-family: sans-serif;
+   font: bold;
+   font-weight: 600;
+   /* margin-left: 10px; */
+   /* border: 2px solid ; */
+   background-color: #E0F1F0;
+   color: grey;
+  
+
+}
+.timer{
+   background-color: rgb(185, 21, 21);
+   width: 680px;
+   height: 400px;
+   margin-top: 100px;
+   /* border: solid 2px; */
+   margin-left: 33px;
+   border-radius: 20px;
+   background-color: white;
+   padding-top: 20px;
+   font-family: 'Roboto', sans-serif;
+}
+.yourticket{
+   /* border: 2px solid; */
+   margin-top: 40px;
+   font-size: 27px;
+   font: bold;
+   font-weight: 600;
+   font-family: sans-serif;
+   display: flex;
+   justify-content: center;
+   /* background-color: blue; */
+}
+.validtimer{
+   /* border: 2px solid; */
+   height: 80px;
+   font-size: 65px;
+   /* font-weight: 900; */
+   /* margin-top: 30px; */
+   /* background-color: yellow; */
+   margin-left: 20px;
+   
+   
+}
+.hms{
+   /* border: solid 2px ; */
+   display: flex;
+   justify-content: center;
+   /* background-color: pink; */
+   /* margin-bottom: 40px; */
+   /* margin-right: 50px; */
+   
+}
+.minutes,.hours,.seconds{
+   /* border: 2px solid; */
+   
+  
+   font-size: 15px;
+   font-weight: 900;
+   font: bold;
+   font-family: sans-serif;
+
+}
+.hours{
+   margin-left: 10px;
+ margin-right: 12px;
+}
+.minutes{
+   margin-left: 18px;
+   margin-right: 20px;
+}
+#clock{
+   margin-top: 30px;
+   margin-left: 190px;
+   font: bold;
+   font-weight: 600;
+   font-family: 'Roboto',sans-serif;
+}
+.viewyourticket{
+   height: 120px;
+   width: 610px;
+   /* border: solid 2px; */
+   margin-top: 100px;
+   margin-left: 10px;
+border-radius: 20px;
+   margin: auto;
+   /* padding-left: 40px; */
+   
+
+  
+}
+.vbtn{
+   height: 120px;
+   width: 610px;
+   font-size: 33px;
+   font-family: sans-serif;
+   border-radius: 20px;
+   margin-top: 20px;
+  color: white;
+  font-weight: 600;
+   background-color: #02baf7;
+   
+}
+.lastlines{
+   height: 40px;
+   margin-top: 50px;
+   /* border:  2px solid; */
+   
+   /* background-color: white; */
+   border-radius: 0px 0px 27px 27px;
+  
+
+}
+.firstline{
+background-color: #02baf7;
+   margin-top: 0px;
+   /* border: 2px solid; */
+   height: 20px;
+}
+.secondline{
+   background-color: rgb(14, 14, 58);
+   margin-bottom: 0px;
+   /* border: 2px solid; */
+   height: 20px;
+   border-radius: 0px 0px 32px 32px;
+}
+.part2{
+   height: 530px;
+   /* border: 2px solid; */
+   background-color: white;
+   margin-top: 30px;
+   border-radius: 15px;
+   box-shadow: 1px 1px 1px 1px grey;
+   padding-top: 20px;
+}
+.tripdetails{
+   margin-top: 30px;
+   /* border: 2px solid; */
+   width: 190px;
+   margin-left: 30px;
+   font-weight: 690;
+   font-size: 25px;
+   font: bold;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.operator{
+   /* border: 2px solid; */
+   display: flex;
+   flex-direction: column;
+   width: 200px;
+   margin-left: 30px;
+   margin-top: 43px;
+}
+.fo,.bo{
+   /* border: 2px solid; */
+   margin: 0px;
+   font-weight: 600;
+   font-size: 20px;
+   color: grey;
+}
+.fs,.bs{
+   /* border: solid 2px; */
+   margin: 0px;
+   font-weight: 600;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.busnumber{
+   /* border: 2px solid; */
+   display: flex;
+   flex-direction: column;
+   width: 200px;
+   margin-left: 30px;
+   margin-top: 43px;
+}
+.greyline{
+   margin-top: 100px;
+   width: 650px;
+   margin-left: 50px;
+   opacity: 20%;
+   height: 1px;
+   border: 1px solid rgb(200, 200, 200);
+   background-color: grey;
+}
+.orderid{
+   /* border: 2px solid; */
+   height: 100px;
+   margin-left: 30px;
+   width: 680px;
+   margin-top: 40px;
+}
+.oif{
+   /* border: 2px solid; */
+   width: 680px;
+   font-weight: 600;
+   font-size: 25px;
+   font-family: sans-serif;
+}
+.ois{
+   margin-top: 16px;
+   /* border: solid 2px; */
+   width: 680px;
+  font-weight: 600;
+  color: grey;
+  font-size: 25px;
+}
+.part3{
+   /* border: 2px solid; */
+   height: 650px;
+   margin-top: 40px;
+   border-radius: 15px;
+   box-shadow: 1px 1px 1px 1px grey;
+   padding-top: 10px;
+}
+.paymentdetails{
+   /* border: 2px solid; */
+   width: 400px;
+   margin-left: 30px;
+   font-size: 27px;
+   font-weight: 900;
+   font-family: sans-serif;
+   margin-top: 60px;
+   /* background-color: red; */
+   
+   
+}
+.farebreakup,.paymentmode{
+   margin-top: 35px;
+   /* border: 2px solid; */
+   width: 400px;
+   margin-left: 30px;
+   font-size: 21px;
+   font-weight: 600;
+   font-family: sans-serif;
+   color: grey;
+
+}
+.adult1,.total{
+   display: flex;
+   /* border: 2px solid; */
+   width: 680px;
+   margin-left: 30px;
+   font-size: 27px;
+   font-weight: 600;
+   font-family: sans-serif;
+   margin-top: 30px;
+   height: 60px;
+   flex-direction: column;
+   box-shadow: 0px 1px 0px 0px grey ;
+   
+}
+.statebankofindia{
+   margin-top: 35px;
+   /* border: 2px solid; */
+   width: 400px;
+   margin-left: 30px;
+   font-size: 21px;
+   font-weight: 600;
+   font-family: sans-serif;
+   color: black;
+}
+.transactionid{
+   margin-top: 32px;
+   /* border: 2px solid; */
+   width: 400px;
+   margin-left: 30px;
+   font-size: 20px;
+   font-weight: 600;
+   font-family: sans-serif;
+   color: grey;
+}
